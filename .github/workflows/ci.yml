@@ -22,6 +22,7 @@ jobs:
           args: "check --select E9,F63,F7,F82"
           src: >-
             tap_jsonserver.py
+            switchlib
             tests
 
   test:
